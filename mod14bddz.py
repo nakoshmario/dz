@@ -167,6 +167,56 @@ class StackStrok:
 if __name__ == '__main__':
     app_is_working = True
     s = StackStrok(3)
+    # ------------------------------
+    # 3 nomer
+#     s = StackStrok()
+
+# while True:
+   
+#     print('1. Поместить строку в стек')
+#     print('2. Вытащить строку из стека')
+#     print('3. Подсчитать количество строк в стеке')
+#     print('4. Проверить пустой ли стек')
+#     print('5. Очистить стек')
+#     print('6. Получить верхнее значение без выталкивания')
+#     print('7. Выйти из приложения')
+
+#     user_choice = input('Выберите операцию: ', 1, 7)
+
+#     if user_choice == 1:
+#         string_to_add = input('Введите строку: ')
+#         s.push(string_to_add)
+
+#     elif user_choice == 2:
+#         if s.is_empty():
+#             print('Стек пуст!')
+#         else:
+#             s.pop()
+
+#     elif user_choice == 3:
+#         print(f'Количество строк в стеке: {s.size()}')
+
+#     elif user_choice == 4:
+#         if s.is_empty():
+#             print('Стек пуст!')
+#         else:
+#             print('Стек непуст!')
+
+#     elif user_choice == 5:
+#         s.clear()
+
+#     elif user_choice == 6:
+#         if s.is_empty():
+#             print('Стек пуст!')
+#         else:
+#             print(f'Текущее верхнее значение: {s.top()}')
+
+#     elif user_choice == 7:
+#         print('Спасибо за работу!')
+#         break
+
+#     input('\nНажмите Enter, чтобы продолжить . . .')
+# ----------------------------
 
     while app_is_working:
         print('\nСтек строк:')
